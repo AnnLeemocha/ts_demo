@@ -14,7 +14,29 @@
 
     console.log(word2);
 
-    // boolean, number, null, undefine, ...
+    // boolean, number, null, undefined, ...
+
+    // boolean
+    let v1: boolean;
+    // v1 = 2;  // ❌ 錯誤
+    v1 = true;
+
+    // number
+    let v2: number;
+    // v2 = "str";  // ❌ 錯誤
+    v2 = 100;
+
+    // null
+    let v3: null;
+    // v3 = 2;  // ❌ 錯誤
+    // v3 = undefined;  // ❌ 錯誤
+    v3 = null;
+
+    // undefined
+    let v4: undefined;
+    // v4 = 2;  // ❌ 錯誤
+    // v4 = null;  // ❌ 錯誤
+    v4 = undefined;
 
     // any
     let value: any = 1;
@@ -24,4 +46,9 @@
         console.log("I'm any type.");
     }
     value();
+
+    // 聯合型別
+    let value2: string | number;
+    value2 = 100;
+    value2 = "hello world";
 }

@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "rm src/*.js & npx tsc src/*.ts",
+    "clean": "rm src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
