@@ -65,6 +65,7 @@
     // p.id = 2; ❌ 錯誤，唯讀
     console.log(p);
 
+
     const p2: Person = { id: 1, name: "Ann", age: 18 };
     console.log(p2);
 }

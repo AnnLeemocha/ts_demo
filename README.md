@@ -13,12 +13,15 @@
   * var =  value2; (same value type)
 * 基本與物件類型 (type.ts, object.ts)
   * 聯合型別 |
+  * 字面量聯合型別
 * 介面和類型定義 (object.ts)
   * interface
     * optional
     * 交集型別 &
   * type
-* 模組支援 (math.ts, index.ts)
+* 模組支援 (module.ts, index.ts)
     * import, export
 * 斷言 (index.ts)
   * any -> type
+* 泛型 (index.ts)
+  * type -> fn -> type

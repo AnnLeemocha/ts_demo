@@ -51,4 +51,12 @@
     let value2: string | number;
     value2 = 100;
     value2 = "hello world";
+
+    // 字面量聯合型別
+    type Direction = "up" | "down" | "left" | "right";
+    let move: Direction;
+    move = "up";   // 正確
+    move = "down"; // 正確
+    // move = "forward";  // ❌ 錯誤
+
 }
