@@ -1,6 +1,10 @@
 
 * why use ts
 * install ts (-g)
+  * npm install typescript -D 
+    * npx tsc src/index.ts. -> index.js
+  * npm install typescript -g
+    * tsc src/index.ts. -> index.js
 * 靜態型別檢查 (type.ts)
   * let var : type = value; (same type)
   * var =  value2;
