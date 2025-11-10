@@ -1,5 +1,5 @@
 // 模組與匯入／匯出
-import { Person } from "./module";
+import type { Person } from "./module";
 
 const p: Person = {
     name: "Alice",
